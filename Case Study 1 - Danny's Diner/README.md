@@ -1,4 +1,4 @@
-# [Case Study \#1 - Danny's Diner](https://8weeksqlchallenge.com/case-study-1/)
+# [Case Study \#1 - Danny's Diner](https://8weeksqlchallenge.com/case-study-1/ "Case Study \#1 - Danny's Diner")
 
 ### Case Study Questions
 
@@ -16,9 +16,9 @@
 #### Example Query:
 ```sql
 SELECT
-  	product_id,
-    product_name,
-    price
+  product_id,
+  product_name,
+  price
 FROM menu
 ORDER BY price DESC
 LIMIT 5;
@@ -32,7 +32,7 @@ LIMIT 5;
   * Customer C spent $36
 
   <p align="center">
-    <img src="img/result_01.png" alt="result_01"/>
+    <img src="img/result_01.PNG" alt="result_01"/>
   </p>
 
 2. How many days has each customer visited the restaurant?
@@ -42,7 +42,7 @@ LIMIT 5;
   * Customer C visited 2 times
 
   <p align="center">
-    <img src="img/result_02.png" alt="result_02"/>
+    <img src="img/result_02.PNG" alt="result_02"/>
   </p>
 
 3. What was the first item from the menu purchased by each customer?
@@ -52,7 +52,7 @@ LIMIT 5;
   * Customer C’s first order is ramen
 
   <p align="center">
-    <img src="img/result_03.png" alt="result_03"/>
+    <img src="img/result_03.PNG" alt="result_03"/>
   </p>
 
 4. What is the most purchased item on the menu and how many times was it purchased by all customers?
@@ -60,7 +60,7 @@ LIMIT 5;
   * Most purchased item on the menu is ramen
 
   <p align="center">
-    <img src="img/result_04.png" alt="result_04"/>
+    <img src="img/result_04.PNG" alt="result_04"/>
   </p>
 
 5. Which item was the most popular for each customer?
@@ -69,7 +69,7 @@ LIMIT 5;
   * Customer B enjoys all items in the menu
 
   <p align="center">
-    <img src="img/result_05.png" alt="result_05"/>
+    <img src="img/result_05.PNG" alt="result_05"/>
   </p>
 
 6. Which item was purchased first by the customer after they became a member?
@@ -77,7 +77,7 @@ LIMIT 5;
   * After Customer A became a member, his/her first order is curry, whereas it’s sushi for Customer B
 
   <p align="center">
-    <img src="img/result_06.png" alt="result_06"/>
+    <img src="img/result_06.PNG" alt="result_06"/>
   </p>
 
 7. Which item was purchased just before the customer became a member?
@@ -86,7 +86,7 @@ LIMIT 5;
   * Customer B’s order is sushi. That must have been a real good sushi!
   
   <p align="center">
-    <img src="img/result_07.png" alt="result_07"/>
+    <img src="img/result_07.PNG" alt="result_07"/>
   </p>
 
 8. What is the total items and amount spent for each member before they became a member?
@@ -95,7 +95,7 @@ LIMIT 5;
   * Customer B spent $40 on 3 items
 
   <p align="center">
-    <img src="img/result_08.png" alt="result_08"/>
+    <img src="img/result_08.PNG" alt="result_08"/>
   </p>
 
 9.  If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
@@ -103,7 +103,7 @@ LIMIT 5;
   * Total points for Customer A, B and C are 860, 940 and 360
 
   <p align="center">
-    <img src="img/result_09.png" alt="result_09"/>
+    <img src="img/result_09.PNG" alt="result_09"/>
   </p>
 
 10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
@@ -112,18 +112,18 @@ LIMIT 5;
   * Customer B has 820 points
 
   <p align="center">
-    <img src="img/result_10.png" alt="result_10"/>
+    <img src="img/result_10.PNG" alt="result_10"/>
   </p>
 
 ###       Bonus Questions
 1. Join All The Things
 
   <p align="center">
-    <img src="img/bonous_1.png" alt="bonous_1"/>
+    <img src="img/bonous_1.PNG" alt="bonous_1"/>
   </p>
 
 2. Rank All The Things
 
   <p align="center">
-    <img src="img/bonous_2.png" alt="bonous_2"/>
+    <img src="img/bonous_2.PNG" alt="bonous_2"/>
   </p>
