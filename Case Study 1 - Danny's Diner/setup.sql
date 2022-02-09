@@ -1,10 +1,13 @@
 
+-- drop database if it exists
 DROP DATABASE IF EXISTS dannys_diner;
 
+-- create new database
 CREATE DATABASE IF NOT EXISTS dannys_diner;
 
 USE dannys_diner;
 
+-- create table sales and insert data into it
 CREATE TABLE IF NOT EXISTS sales (
   customer_id VARCHAR(1),
   order_date DATE,
@@ -30,7 +33,7 @@ VALUES
   ('C', '2021-01-01', '3'),
   ('C', '2021-01-07', '3');
  
-
+-- create menu table and insert data into it
 CREATE TABLE IF NOT EXISTS menu (
   product_id INTEGER PRIMARY KEY,
   product_name VARCHAR(5),
@@ -44,7 +47,7 @@ VALUES
   ('2', 'curry', '15'),
   ('3', 'ramen', '12');
   
-
+-- create members table and insert data into it
 CREATE TABLE IF NOT EXISTS members (
   customer_id VARCHAR(1) PRIMARY KEY,
   join_date DATE
@@ -56,6 +59,7 @@ VALUES
   ('A', '2021-01-07'),
   ('B', '2021-01-09');
   
+-- validate data of sales, menu and members table
 SELECT *
 FROM sales
 LIMIT 5;
